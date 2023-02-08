@@ -5,16 +5,16 @@
 
 #include "queue.hpp"
 
-void testSize(queue &q);
-void testEmpty(queue &q, bool expectedResult);
-void testFull(queue &q, bool expectedResult);
+void testSize();
+void testEmpty();
+void testFull();
 
-void testDequeue1(queue &q);
-void testEnqueue1(queue &q, int value);
-void testPeek1(queue &q);
+void testDequeue1();
+void testEnqueue1();
+void testPeek1();
 
-void testDequeue2(queue &q);
-void testEnqueue2(queue &q, int value);
-void testPeek2(queue &q);
+void testDequeue2();
+void testEnqueue2();
+void testPeek2();
 
 #endif

@@ -24,26 +24,23 @@
 // This code was taken from https://www.techiedelight.com/queue-implementation-cpp/
 // The code has been modified from the original to provide opportunities to learn
 
-
 #include "testQueue.hpp"
 
 // main function
 int main()
 {
-	queue q(5);
+	testSize();
+	testEmpty();
+	testFull();
 
-	testSize(q);
-	testEmpty(q, false);
-	testFull(q, false);
-
-	testDequeue1(q);
-	testEnqueue1(q, 4);
-	testPeek1(q);
+	testDequeue1();
+	testEnqueue1();
+	testPeek1();
 
 	// These test case functions are commented out as they will terminate the program if successful. Please uncomment them when using them.
-	// testDequeue2(q);
-	// testEnqueue2(q, 4);
-	// testPeek2(q);
+	// testDequeue2();
+	// testEnqueue2();
+	// testPeek2();
 
 	return 0;
 }
